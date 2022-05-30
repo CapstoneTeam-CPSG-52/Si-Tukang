@@ -58,21 +58,25 @@ main {
     padding-left: 60px;
 }
 
-.content {
-    margin-top: 200px;
-    margin-bottom: 200px;
+.services {
+    padding-bottom: 200px;
+}
+
+.servicesTitle {
+    padding-top: 100px;
+    text-align: center;
 }
 
 .rowimg {
     width: 40%;
 }
 
-.loginbutton {
+.signinbutton {
     color: white;
     text-decoration: none;
 }
 
-.loginbutton:hover {
+.signinbutton:hover {
     color: white;
 }
 

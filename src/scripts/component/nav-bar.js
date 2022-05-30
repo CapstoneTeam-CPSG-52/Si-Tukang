@@ -7,7 +7,7 @@ class NavBar extends HTMLElement {
         this.innerHTML = `
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#home">Si Tukang</a>
+                <a class="navbar-brand" href="index.html"><img src="img/icons.png" alt="" width="40" height="auto" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -16,13 +16,13 @@ class NavBar extends HTMLElement {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" id="backHome" aria-current="page" href="#home">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" id="about" aria-current="page" href="#about">About</a>
+                            <a class="nav-link active" aria-current="page" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" id="services" aria-current="page" href="#services">Services</a>
+                            <a class="nav-link active" aria-current="page" href="#services">Services</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -40,8 +40,8 @@ class NavBar extends HTMLElement {
                         </li>
                     </ul>
                     <form class="d-flex">
-                        <button class="btn active btn-outline-primary login-button" id="login-button" type="submit"><a
-                                class="loginbutton" href="login.html">Login</a></button>
+                        <button class="btn active btn-outline-primary signin-button" id="signin-button" type="submit"><a
+                                class="signinbutton" href="signin.html">Sign in</a></button>
                     </form>
                 </div>
             </div>

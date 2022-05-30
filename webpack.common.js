@@ -1,3 +1,5 @@
+/* eslint-disable implicit-arrow-linebreak */
+/* eslint-disable prefer-template */
 /* eslint-disable import/no-extraneous-dependencies */
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
@@ -30,8 +32,29 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
+      inject: 'body',
       template: path.resolve(__dirname, 'src/templates/index.html'),
       filename: 'index.html',
+      minify: {
+        removeComments: true,
+        collapseWhitespace: true,
+      },
+    }),
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, 'src/templates/signin.html'),
+      filename: 'signin.html',
+      minify: {
+        removeComments: true,
+        collapseWhitespace: true,
+      },
+    }),
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, 'src/templates/signup.html'),
+      filename: 'signup.html',
+      minify: {
+        removeComments: true,
+        collapseWhitespace: true,
+      },
     }),
     new CopyWebpackPlugin({
       patterns: [
