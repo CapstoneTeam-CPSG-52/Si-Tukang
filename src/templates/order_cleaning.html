@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="ordering handyman services via the website" />
+    <meta name="theme-color" content="#1C658C" />
+    <title>Si Tukang</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet" />
+    <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+    <link rel="shortcut icon" type="image/png" href="img/icons.png" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <script src="https://kit.fontawesome.com/5a55e40371.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <login-bar></login-bar>
+    </header>
+
+    <main tabindex="0" id="maincontent">
+      <div class="detail-order">
+        <div class="user-data">
+          <img class="rounded-circle" src="img/man.png" width="80" height="80" alt="" />
+          <p>Nama</p>
+          <p>Alamat</p>
+          <p>Jln Bunga</p>
+        </div>
+
+        <div class="form-order">
+          <form>
+            <div>
+              <p>Alamat</p>
+              <div class="user-address">
+                <i title="icon-location" class="fa-solid fa-location-dot"></i>
+                <p class="user-location">Jalan Bunga</p>
+              </div>
+            </div>
+
+            <div>
+              <p>Kategori Layanan: Cleaning Service</p>
+            </div>
+
+            <div>
+              <p>Jasa layanan kebersihan untuk rumah anda</p>
+            </div>
+
+            <div>
+              <p>Durasi Pengerjaan</p>
+              <div class="available-services">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+                  <label class="form-check-label" for="flexRadioDefault1"> Per Jam </label>
+                </div>
+
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
+                  <label class="form-check-label" for="flexRadioDefault2"> Harian </label>
+                </div>
+
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
+                  <label class="form-check-label" for="flexRadioDefault2"> Bulanan </label>
+                </div>
+            </div>
+
+            <div>
+              <p>Layanan Tambahan</p>
+              <div class="categories">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+                  <label class="form-check-label" for="flexRadioDefault1"> Laundry Pakaian </label>
+                </div>
+
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
+                  <label class="form-check-label" for="flexRadioDefault2"> Pembersihan Taman  </label>
+                </div>
+              </div>
+            </div>
+
+
+            <div>
+              <p>Pembayaran</p>
+              <div class="payment">
+                <div class="row mb-3">
+                  <label for="inputEmail3" class="col-sm-2 col-form-label">Metode Pembayaran</label>
+                  <div class="col-sm-10">
+                    <select class="form-select" aria-label="Disabled select example" disabled>
+                      <option selected>OVO</option>
+                    </select>
+                  </div>
+                </div>
+
+                <p>Total Pembayaran:</p>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-order" style="background-color: rgba(209, 49, 49, 0.856)">Pesan Sekarang</button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer-section></footer-section>
+  </body>
+</html>
