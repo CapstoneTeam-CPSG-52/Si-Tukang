@@ -1,0 +1,32 @@
+.form-signup {
+  max-width: 330px;
+  padding: 15px;
+  padding-top: 75px;
+  padding-bottom: 200px;
+  background-color: #D1C16A;
+}
+
+.form-signup .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signup input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signup input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.condition {
+  font-size: 14px;
+  text-align: center;
+}
+
+.condition a {
+  text-decoration: none;
+}
