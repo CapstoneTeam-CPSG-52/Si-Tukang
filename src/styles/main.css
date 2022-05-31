@@ -112,3 +112,72 @@ main {
 footer {
     background-color: #6B4747;
 }
+
+.tentangsitukang{
+    display: block;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url('../public/img/testimoni.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 25rem;
+}
+
+.tentangsitukang-Title{
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.deskripsisitukang{
+    background-color:#c3b583 ;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 50px;
+}
+
+.kelebihansitukang-title{
+    padding: 70px 50px 20px 50px;
+}
+
+.kelebihansitukang{
+    margin: 50px;
+}
+
+.kelebihansitukang ul{
+    list-style: none;
+    background-color:#c3b583 ;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+.kelebihansitukang ul li{
+    padding:10px;
+    text-align: left;
+}
+
+.dot{
+    height: 15px;
+    width: 15px;
+    background-color: #6B4747;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.carapesan-title{
+    padding: 70px 50px 20px 50px;
+}
+
+.carapesan{
+    background-color:#c3b583 ;
+    padding: 50px;
+    margin: 30px;
+    border-radius: 50px;
+}
+
+.deskripsi-carapesan{
+    text-align: center;
+    align-items: center;
+    
+}
