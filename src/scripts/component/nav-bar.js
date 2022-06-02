@@ -19,24 +19,10 @@ class NavBar extends HTMLElement {
                             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#services">Services</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Categories
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Elektronik</a></li>
-                                <li><a class="dropdown-item" href="#">Bangunan</a></li>
-                                <li><a class="dropdown-item" href="#">Furniture</a></li>
-                                <li><a class="dropdown-item" href="#">Otomotif</a></li>
-                                <li><a class="dropdown-item" href="#">Cleaning</a></li>
-                                <li><a class="dropdown-item" href="#">Lainnya...</a></li>
-                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#about">About</a>
                         </li>
                     </ul>
                     <form class="d-flex">

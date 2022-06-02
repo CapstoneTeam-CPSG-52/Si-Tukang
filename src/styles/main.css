@@ -20,6 +20,15 @@ nav {
     color: red;
 }
 
+.signinbutton {
+    color: white;
+    text-decoration: none;
+}
+
+.signinbutton:hover {
+    color: white;
+}
+
 /* Hero Section */
 .hero {
     display: block;
@@ -51,19 +60,14 @@ main {
     background-color: #D1C16A;
 }
 
-.search {
-    padding-top: 20px;
-    padding-bottom: 100px;
-    padding-right: 60px;
-    padding-left: 60px;
-}
-
+/* Sevices Section */
 .services {
-    padding-bottom: 200px;
+    padding-bottom: 150px;
 }
 
 .servicesTitle {
     padding-top: 100px;
+    padding-bottom: 70px;
     text-align: center;
 }
 
@@ -71,15 +75,68 @@ main {
     width: 40%;
 }
 
-.signinbutton {
-    color: white;
-    text-decoration: none;
+/* About */
+.aboutBanner {
+    padding-top: 80px;
 }
 
-.signinbutton:hover {
-    color: white;
+mark {
+    border-radius: 7%;
 }
 
+.lead {
+    padding-top: 20px;
+}
+
+/* Advantages */
+.advantagesSitukang-title {
+    padding: 70px 50px 20px 50px;
+}
+
+.advantagesSitukang {
+    margin: 50px;
+}
+
+.advantagesSitukang ul {
+    list-style: none;
+    background-color: #878ecc;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+.advantagesSitukang ul li {
+    padding: 10px;
+    text-align: left;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #6B4747;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* Order Guide */
+.orderGuide-title {
+    padding: 70px 50px 20px 50px;
+}
+
+/* 6B7AA1 */
+.orderGuide {
+    background-color: #878ecc;
+    padding: 50px;
+    margin: 30px;
+    border-radius: 50px;
+}
+
+.deskripsi-orderGuide {
+    text-align: center;
+    align-items: center;
+
+}
+
+/* Testimoni */
 .testimoniBanner {
     display: block;
     align-items: center;
@@ -109,75 +166,7 @@ main {
     padding-top: 30px;
 }
 
+/* Footer */
 footer {
     background-color: #6B4747;
-}
-
-.tentangsitukang{
-    display: block;
-    align-items: center;
-    text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url('../public/img/testimoni.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 25rem;
-}
-
-.tentangsitukang-Title{
-    color: white;
-    padding-top: 200px;
-    padding-bottom: 200px;
-}
-
-.deskripsisitukang{
-    background-color:#c3b583 ;
-    padding: 50px;
-    margin: 50px;
-    border-radius: 50px;
-}
-
-.kelebihansitukang-title{
-    padding: 70px 50px 20px 50px;
-}
-
-.kelebihansitukang{
-    margin: 50px;
-}
-
-.kelebihansitukang ul{
-    list-style: none;
-    background-color:#c3b583 ;
-    padding: 50px;
-    border-radius: 50px;
-}
-
-.kelebihansitukang ul li{
-    padding:10px;
-    text-align: left;
-}
-
-.dot{
-    height: 15px;
-    width: 15px;
-    background-color: #6B4747;
-    border-radius: 50%;
-    display: inline-block;
-}
-
-.carapesan-title{
-    padding: 70px 50px 20px 50px;
-}
-
-.carapesan{
-    background-color:#c3b583 ;
-    padding: 50px;
-    margin: 30px;
-    border-radius: 50px;
-}
-
-.deskripsi-carapesan{
-    text-align: center;
-    align-items: center;
-    
 }
