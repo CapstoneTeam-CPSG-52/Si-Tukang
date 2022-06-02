@@ -7,6 +7,9 @@ class MainContent extends HTMLElement {
     this.innerHTML = `
         <div class="content container px-5">
             <div class="search">
+            <h2 class="servicesTitle">
+                Services
+            </h2>
                 <form class="d-flex">
                     <input class="form-control me-2 search-form" type="search" placeholder="Cari Tukang..."
                         aria-label="Search">
@@ -17,20 +20,20 @@ class MainContent extends HTMLElement {
             <div class="row">
 
             <div class="col-md-4 text-center">
-                <a class="text-body" href="order_elektro.html" style="text-decoration: none;">
+                <a class="text-body" href="order-elektro.html" style="text-decoration: none;">
                 <img class="rowimg" src="img/elektronik.png" alt="">
                 <p>Elektronik</p>
                 </a>
             </div>
 
             <div class="col-md-4 text-center">
-                <a class="text-body" href="order_bangunan.html" style="  text-decoration: none;">
+                <a class="text-body" href="order-bangunan.html" style="text-decoration: none;">
                 <img class="rowimg" src="img/bangunan.png" alt="">
                 <p>Bangunan</p>
                 </a>
             </div>
             <div class="col-md-4 text-center">
-                <a class="text-body" href="order_furniture.html" style="  text-decoration: none;">
+                <a class="text-body" href="order-furniture.html" style="text-decoration: none;">
                 <img class="rowimg" src="img/furniture.png" alt="">
                 <p>Furniture</p>
                 </a>
@@ -38,13 +41,13 @@ class MainContent extends HTMLElement {
         </div>
         <div class="row">
             <div class="col-md-4 text-center">
-                <a class="text-body" href="order_otomotif.html" style="text-decoration: none;">
+                <a class="text-body" href="order-otomotif.html" style="text-decoration: none;">
                 <img class="rowimg" src="img/otomotif.png" alt="">
                 <p>Otomotif</p>
                 </a>
             </div>
             <div class="col-md-4 text-center">
-                <a class="text-body" href="order_cleaning.html" style="  text-decoration: none;">
+                <a class="text-body" href="order-cleaning.html" style="text-decoration: none;">
                 <img class="rowimg" src="img/cleaning.png" alt="">
                 <p>Cleaning</p>
                 </a>

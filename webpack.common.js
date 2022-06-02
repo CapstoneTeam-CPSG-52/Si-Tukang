@@ -57,40 +57,64 @@ module.exports = {
       },
     }),
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "src/templates/order_elektro.html"),
-      filename: "order_elektro.html",
+      template: path.resolve(__dirname, "src/templates/order-elektro.html"),
+      filename: "order-elektro.html",
       minify: {
         removeComments: true,
         collapseWhitespace: true,
       },
     }),
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "src/templates/order_bangunan.html"),
-      filename: "order_bangunan.html",
+      template: path.resolve(__dirname, "src/templates/order-bangunan.html"),
+      filename: "order-bangunan.html",
       minify: {
         removeComments: true,
         collapseWhitespace: true,
       },
     }),
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "src/templates/order_furniture.html"),
-      filename: "order_furniture.html",
+      template: path.resolve(__dirname, "src/templates/order-furniture.html"),
+      filename: "order-furniture.html",
       minify: {
         removeComments: true,
         collapseWhitespace: true,
       },
     }),
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "src/templates/order_otomotif.html"),
-      filename: "order_otomotif.html",
+      template: path.resolve(__dirname, "src/templates/order-otomotif.html"),
+      filename: "order-otomotif.html",
       minify: {
         removeComments: true,
         collapseWhitespace: true,
       },
     }),
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "src/templates/order_cleaning.html"),
-      filename: "order_cleaning.html",
+      template: path.resolve(__dirname, "src/templates/order-cleaning.html"),
+      filename: "order-cleaning.html",
+      minify: {
+        removeComments: true,
+        collapseWhitespace: true,
+      },
+    }),
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, "src/templates/profile-unpaid.html"),
+      filename: "profile-unpaid.html",
+      minify: {
+        removeComments: true,
+        collapseWhitespace: true,
+      },
+    }),
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, "src/templates/profile-processed.html"),
+      filename: "profile-processed.html",
+      minify: {
+        removeComments: true,
+        collapseWhitespace: true,
+      },
+    }),
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, "src/templates/profile-finished.html"),
+      filename: "profile-finished.html",
       minify: {
         removeComments: true,
         collapseWhitespace: true,

@@ -1,0 +1,60 @@
+.user-page {
+  display: inline-flex;
+}
+.user-profile {
+  margin-top: 200px;
+  margin-left: 55px;
+}
+.user-purchase {
+  margin-top: 70px;
+  margin-bottom: 55px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 50px;
+  border-radius: 15px;
+}
+
+.user-purchase h3 {
+  text-align: center;
+}
+
+.menu-purchased {
+  display: inline;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+.purchased {
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #b8ad70;
+}
+.test {
+  display: inline-flex;
+}
+.fa-star {
+  padding: 3px 2px;
+  font-size: 16px;
+  color: rgb(243, 220, 9);
+}
+.data-patner {
+  margin-top: 30px;
+  text-align: center;
+}
+.detail-purchase {
+  margin-left: 150px;
+}
+.order-payment {
+  display: inline-flex;
+}
+.btn-pay {
+  margin-left: 10px;
+}
+.btn-processed {
+  background-color: #3f682c;
+  margin-left: 10px;
+}
+.btn-finished {
+  background-color: #946917;
+  margin-left: 10px;
+}
