@@ -1,10 +1,10 @@
 class AboutSection extends HTMLElement {
-    connectedCallback() {
-        this.render();
-    }
+  connectedCallback() {
+    this.render();
+  }
 
-    render() {
-        this.innerHTML = `
+  render() {
+    this.innerHTML = `
         <div class="container" id="about">
                 <hr class="featurette-divider">
                 <div class="row featurette">
@@ -137,11 +137,11 @@ class AboutSection extends HTMLElement {
                             <p>Seorang Mahasiswa UPN "Veteran" Jawa TImur</p>
                         </div>
                         <div class="col-lg-3 text-center text-white">
-                            <img class="rounded-circle" src="img/user.png" width="140" height="140" alt="">
+                            <img class="rounded-circle" src="img/Aurel.jpeg" width="140" height="140" alt="">
                             <h3 class="testimoniContentTitle fw-normal" class="fw-normal">Aurel <a
                                     href="https://linktr.ee/izdiharalwin"
                                     style="text-decoration: none; color: white;">🡢</a></h3>
-                            <p>Seorang Mahasiswi</p>
+                            <p>Seorang Mahasiswi Universitas Negeri Malang</p>
                         </div>
                         <div class="col-lg-3 text-center text-white">
                             <img class="rounded-circle" src="img/user.png" width="140" height="140" alt="">
@@ -161,7 +161,7 @@ class AboutSection extends HTMLElement {
                 </div>
             </div>
           `;
-    }
+  }
 }
 
-customElements.define('about-section', AboutSection);
+customElements.define("about-section", AboutSection);
