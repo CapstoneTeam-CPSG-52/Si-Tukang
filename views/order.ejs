@@ -1,0 +1,28 @@
+<main tabindex="0" id="maincontent">
+    <div class="listtukang container">
+        <div class="row">
+            <p class="listtukangTitle fs-1">
+                List Tukang
+            </p>
+            <% data.forEach(element=> { %>
+                <div class="listtukangCol col-lg-3 text-center text-black">
+                    <div class="listtukangContent">
+                        <img class="rounded-circle" src="img/man.png" width="140" height="140" alt="">
+                        <h3 class="listtukangContentTitle fw-normal" class="fw-normal">
+                            <%= element.name %>
+                        </h3>
+                        <p>
+                            <%= element.address %>
+                        </p>
+                        <p>
+                            <%= element.phone %>
+                        </p>
+                        <a href="/detailOrder/<%= element.id %>" type="button" class="btn btn-primary">Pilih
+                            Tukang</a>
+
+                    </div>
+                </div>
+                <% }) %>
+        </div>
+    </div>
+</main>

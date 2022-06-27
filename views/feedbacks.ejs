@@ -1,0 +1,28 @@
+<main tabindex="0" id="maincontent" class="review-form">
+    <div class="feedback-container flex">
+        <h1 class="title">
+            <img src="/img/icons.png" alt="icon" />
+            Feedback Form
+        </h1>
+        <p class="subtitle">Did you like our service?</p>
+
+        <form action="/addFeedbacks" method="post">
+
+            <input type="hidden" name="id_tukang" value="<%= data.id_tukang %> ">
+            <input type="hidden" name="id_users" value="<%= token.id %> ">
+            <div class="add flex" autocomplete="off">
+                <div class="input-group-review">
+                    <input type="text" name="review" class="review" placeholder="review" />
+                    <button type="submit" class="btn-submit">Submit</button>
+                </div>
+
+                <div class="message">Review at last 10 characters</div>
+            </div>
+        </form>
+        <% fb.forEach(element=> { %>
+            <p>
+                <%= element.review %>
+            </p>
+            <% }) %>
+    </div>
+</main>

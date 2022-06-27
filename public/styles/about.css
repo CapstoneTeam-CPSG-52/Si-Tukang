@@ -1,0 +1,33 @@
+.about {
+    display: block;
+    align-items: center;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 200px;
+    background-color: #D1C16A;
+    object-fit: cover;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url('../img/bannerabout.jpg');
+}
+
+.aboutTitle {
+    padding-top: 110px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+}
+
+.carousel {
+    padding-bottom: 200px;
+}
+
+.featurette-divider {
+    margin: 5rem 0;
+}
+
+.featurette-heading {
+    letter-spacing: -.05rem;
+}

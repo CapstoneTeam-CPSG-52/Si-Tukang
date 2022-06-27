@@ -1,0 +1,164 @@
+.review-form {
+    margin-top: 65px;
+}
+
+.feedback-container .title {
+    padding-top: 200px;
+    padding-bottom: 30px;
+}
+
+.title img {
+    width: 60px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.review,
+.btn-submit {
+    outline: none;
+    border: 1px solid rgb(192, 184, 146);
+    padding: 10px;
+    margin: 5px auto;
+}
+
+.btn-submit {
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #3d2d2d;
+    color: rgb(192, 184, 146);
+}
+
+.btn-submit:hover {
+    background-color: #886363;
+    color: rgb(73, 68, 68);
+}
+
+.rating {
+    max-width: 300px;
+    width: 100%;
+}
+
+.input-group-review,
+.input-group-rating {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+
+.message {
+    min-height: 15px;
+    color: rgb(77, 2, 2);
+    padding-bottom: 200px;
+}
+
+.title,
+.subtitle {
+    margin-bottom: 10px;
+    color: #2e2525;
+}
+
+/*style show review*/
+.feedback-ul {
+    list-style: none;
+    max-width: 300px;
+    width: 100%;
+}
+
+.feedback-ul li {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    background: white;
+    color: #181111;
+    padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 98%;
+}
+
+.feedback-ul li .value {
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    background: red;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    color: blanchedalmond;
+}
+
+.feedback-ul li .delete {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    color: rgb(121, 16, 16);
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.feedback-ul ul li .text {
+    font-size: 14px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    width: 100%;
+}
+
+.average {
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: wheat;
+    display: grid;
+    place-items: center;
+    color: rgb(134, 13, 13);
+}
+
+.average:after {
+    content: "Average";
+    position: absolute;
+    top: 4px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 340px) {
+    .input-group-review .btn-submit {
+        width: 70px;
+        font-size: smaller;
+    }
+
+    .input-group-review .review {
+        width: 200px;
+        font-size: smaller;
+    }
+
+    .star-widget {
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    .star-widget label {
+        font-size: 28px;
+        transition: all 0.2 ease;
+        text-align: center;
+    }
+
+    .feedback-ul li {
+        width: 220px;
+    }
+}
