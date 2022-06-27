@@ -1,0 +1,36 @@
+<div class="form-signup m-auto">
+    <div class="container text-center">
+        <img class="imgsignup w-75" src="img/icons.png" alt="Si Tukang">
+    </div>
+    <form action="/signup" method="post">
+        <h1 class="h3 mb-4 fw-normal">Please sign up</h1>
+        <div class="form-floating">
+            <input name="name" type="name" class="form-control" id="floatingName" placeholder="Name">
+            <label for="floatingName">Name</label>
+        </div>
+        <div class="form-floating">
+            <input name="address" type="address" class="form-control" id="floatingAddress" placeholder="address">
+            <label for="floatingAddress">Address</label>
+        </div>
+        <div class="form-floating">
+            <input name="phone" type="phone" class="form-control" id="floatingPhone" placeholder="phone">
+            <label for="floatingPhone">Phone</label>
+        </div>
+        <div class="form-floating mt-3">
+            <input name="email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating">
+            <input name="password" type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+        </div>
+        <p class="condition">
+            Dengan mendaftar, saya menyetujui
+            <a href="#">Syarat dan Ketentuan</a> & <a href="#">Kebijakan Privasi</a>
+        </p>
+        <button class="w-100 btn btn-lg btn-primary" id="btn-signup" type="submit">Sign up</button>
+        <p class="condition mt-2">
+            Sudah memiliki akun? <a href="/signin">Masuk</a>
+        </p>
+    </form>
+</div>

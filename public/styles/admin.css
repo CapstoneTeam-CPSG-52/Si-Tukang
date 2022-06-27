@@ -1,0 +1,308 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap);
+
+/*----------------- STYLE .SIDEBAR------------- */
+
+.sidebar {
+  position: fixed;
+  height: 100%;
+  width: 75px;
+  padding: 10px 10px;
+  top: 0;
+  left: 0;
+  background-color: #311c1c;
+  transition: all 0.5s ease;
+}
+
+.sidebar.active {
+  width: 300px;
+}
+
+.sidebar .logo_content .logo {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  align-items: center;
+  color: white;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.sidebar.active .logo_content .logo {
+  opacity: 1;
+  pointer-events: none;
+}
+
+.logo i {
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.logo_name {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.logo img {
+  width: 100%;
+  max-width: 50px;
+}
+
+.sidebar #btn {
+  position: absolute;
+  color: white;
+  left: 50%;
+  top: 17px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  transform: translateX(-50%);
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.sidebar.active #btn {
+  left: 90%;
+  cursor: pointer;
+}
+
+.sidebar-ul {
+  margin-top: 20px;
+  list-style: none;
+}
+
+.sidebar-list {
+  list-style: none;
+}
+
+.sidebar-ul .sidebar-list {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  margin: auto;
+  list-style: none;
+  line-height: 50px;
+}
+
+.sidebar ul li a {
+  display: flex;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.5 ease;
+  color: white;
+}
+
+.sidebar ul li a:hover {
+  color: #311c1c;
+  background: rgb(196, 177, 177);
+}
+
+#dashboard_field {
+  margin: 30px auto;
+}
+
+#dashboard {
+  background-color: #5b3333;
+}
+
+#dashboard:hover {
+  color: #311c1c;
+  background: white;
+}
+
+.sidebar .dashboard_title {
+  display: none;
+}
+
+.sidebar.active .dashboard_title {
+  display: block;
+}
+
+.sidebar .data_customer {
+  display: none;
+}
+
+.sidebar.active .data_customer {
+  display: block;
+}
+
+.sidebar .data_order {
+  display: none;
+}
+
+.sidebar.active .data_order {
+  display: block;
+}
+
+.sidebar ul li a i {
+  min-height: 50px;
+  min-width: 50px;
+  line-height: 45px;
+  text-align: center;
+}
+
+.sidebar .profil_admin {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  width: 100%;
+}
+
+.sidebar .profil_admin .profil {
+  position: relative;
+  padding: 10px 6px;
+  height: 60px;
+  background-color: #482828;
+}
+
+.profil_admin .profil .profil_detail {
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.sidebar.active .profil .profil_detail {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.profil_detail i {
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+.admin {
+  margin-left: 15px;
+}
+
+.admin .name {
+  font-size: 15px;
+}
+
+.admin .role {
+  font-size: 12px;
+}
+
+.profil #log_out {
+  position: absolute;
+  left: 60%;
+  bottom: 17px;
+  transform: translateX(-50%);
+  min-width: 50px;
+  border-radius: 12px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.sidebar.active .profil #log_out {
+  left: 95%;
+  cursor: pointer;
+}
+
+.main_content {
+  position: absolute;
+  width: calc(100% - 75px);
+  height: 400%;
+  left: 75px;
+  transition: all 0.5s ease;
+}
+
+.main_content .text {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 15px;
+}
+
+.sidebar.active~.main_content {
+  width: calc(100% - 300px);
+  left: 300px;
+}
+
+/*-------------------------STYLE .MAIN CONTENT-----------------*/
+.table-admin {
+  width: 100%;
+  padding: 50px 50px;
+}
+
+.table-admin p {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.header_table {
+  display: flex;
+  padding: 30px 20px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e3e2e2;
+}
+
+.add_data {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+  background-color: #5b3333;
+}
+
+.add_data {
+  padding: 10px 15px;
+  color: white;
+}
+
+input {
+  padding: 10px 15px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.table_field {
+  height: 570px;
+  overflow: auto;
+}
+
+.data-table {
+  background-color: rgb(189, 173, 173);
+  top: 0;
+  color: rgb(104, 89, 89);
+  font-size: 15px;
+  padding: 10px;
+  position: sticky;
+}
+
+.data-table th,
+.data-table td {
+  border-bottom: 1px solid #ded4d4;
+  padding: 15px;
+  text-align: center;
+  word-break: break-all;
+}
+
+.edit_button {
+  background-color: rgb(88, 205, 20);
+  padding: 5px;
+  font-size: 15px;
+  color: white;
+}
+
+.trash_button {
+  background-color: rgb(205, 20, 20);
+  padding: 5px;
+  font-size: 15px;
+  color: white;
+}
+
+.search-data {
+  color: #dbbbbb;
+}

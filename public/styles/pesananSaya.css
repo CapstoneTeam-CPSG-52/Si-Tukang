@@ -1,0 +1,136 @@
+.user-purchase {
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 80%;
+}
+
+.user-purchase h3 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.menu-purchased {
+    text-align: center;
+}
+
+.purchased-ul .list-active {
+    position: relative;
+    justify-content: center;
+}
+
+.purchased-list a {
+    color: black;
+}
+
+.purchased-list a:hover {
+    background-color: #ccb68e;
+    border-radius: 25px;
+    color: rgb(83, 80, 80);
+}
+
+.list-active a {
+    border-radius: 30px;
+}
+
+.purchased {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #b8ad70;
+    margin-bottom: 40px;
+}
+
+.test {
+    display: inline-flex;
+}
+
+.fa-star {
+    padding: 3px 2px;
+    font-size: 16px;
+    color: rgb(243, 220, 9);
+}
+
+.icon-location {
+    color: red;
+}
+
+.data-patner {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.detail-purchase {
+    margin-left: 150px;
+}
+
+.payment-title {
+    margin-right: 20px;
+}
+
+.btn-pay {
+    width: 200px;
+    align-items: center;
+}
+
+@media screen and (max-width: 300px) {
+    .user-purchase {
+        width: 90%;
+    }
+
+    .detail-purchase h5 {
+        font-size: 15px;
+    }
+
+    .payment-title {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .order-payment a {
+        font-size: 11px;
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .user-purchase {
+        width: 90%;
+    }
+
+    .detail-purchase h5 {
+        font-size: 20px;
+    }
+
+    .order-payment {
+        display: inline-flex;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .user-purchase {
+        padding: 20px;
+    }
+
+    .detail-purchase {
+        font-size: 15px;
+    }
+
+    .payment-title {
+        font-size: 13px;
+    }
+
+    .btn-pay {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    .test {
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+
+    .detail-purchase {
+        margin-left: 0;
+    }
+}
