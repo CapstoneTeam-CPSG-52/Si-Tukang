@@ -1,7 +1,7 @@
 # Si-Tukang
 ordering handyman services via the website
 
-[Click Me!👋]()
+[Click Me!👋](https://si-tukang.herokuapp.com/)
 
 ## How To Use
 * Installing all package inside devDependencies and dependencies on package.json
@@ -12,5 +12,10 @@ ordering handyman services via the website
 * Run the project in Local Server
 
    ```sh
-   npm run start-dev
+   npm start
+   ```
+* Create atleast one account
+
+   ```sh
+   sign up
    ```
