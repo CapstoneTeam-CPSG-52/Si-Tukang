@@ -1,0 +1,179 @@
+<div class="hero">
+    <div class="hero__inner">
+        <h1 class="hero__title">Welcome to Si Tukang</h1>
+        <p class="hero__tagline">Easier your work with us</p>
+    </div>
+</div>
+
+<div class="services container px-5" id="services">
+    <h2 class="servicesTitle">
+        Services
+    </h2>
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <a class="text-body" href="/orderTukang/elektronik" style="text-decoration: none;">
+                <img class="rowimg" src="img/elektronik.png" alt="">
+                <p>Elektronik</p>
+            </a>
+        </div>
+
+        <div class="col-md-4 text-center">
+            <a class="text-body" href="/orderTukang/bangunan" style="text-decoration: none;">
+                <img class="rowimg" src="img/bangunan.png" alt="">
+                <p>Bangunan</p>
+            </a>
+        </div>
+        <div class="col-md-4 text-center">
+            <a class="text-body" href="/orderTukang/furniture" style="text-decoration: none;">
+                <img class="rowimg" src="img/furniture.png" alt="">
+                <p>Furniture</p>
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <a class="text-body" href="/orderTukang/otomotif" style="text-decoration: none;">
+                <img class="rowimg" src="img/otomotif.png" alt="">
+                <p>Otomotif</p>
+            </a>
+        </div>
+        <div class="col-md-4 text-center">
+            <a class="text-body" href="/orderTukang/cleaning" style="text-decoration: none;">
+                <img class="rowimg" src="img/cleaning.png" alt="">
+                <p>Cleaning</p>
+            </a>
+        </div>
+        <div class="col-md-4 text-center">
+            <img class="rowimg" src="img/lainnya.png" alt="">
+            <p>Lainnya</p>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="about">
+    <hr class="featurette-divider">
+    <div class="row featurette">
+        <div class="aboutBanner col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">Tentang <mark class="bg-info text-white">Si
+                    Tukang</mark>
+            </h2>
+            <p class="lead">Si Tukang menyediakan berbagai kebutuhan jasa pertukangan.
+                kami memiliki misi untuk memberikanmu kemudahan dalam mencari Tukang.</p>
+        </div>
+        <div class="col-md-5 text-center">
+            <img src="img/icons.png" class="imgIcons" alt="">
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading fw-normal lh-1 text-center">Kelebihan <mark class="bg-info text-white">Si
+                        Tukang</mark></h2>
+                <div class="advantagesSitukang">
+                    <ul>
+                        <li><span class="dot"></span> Menyediakan tukang yang berpengalaman</li>
+                        <li><span class="dot"></span> Membantu anda menemukan tukang terbaik sesuai
+                            kebutuhan anda
+                        </li>
+                        <li><span class="dot"></span> Customer Service and Technical Support</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-5 order-md-1 text-center">
+                <img src="img/advantages.png" class="imgIcons" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Order Guide -->
+    <h2 class="orderGuide-title">Cara Pemesanan</h2>
+    <div class="orderGuide">
+        <div class="column featurette">
+            <div class="col-md">
+                <div class="row">
+                    <div class="orderGuideContent col-lg-4 text-center">
+                        <img class="orderGuiderounded-circle" src="img/kategori.png" width="140" height="140">
+                        <p>1. Pilih kategori layanan</p>
+                    </div>
+                    <div class="orderGuideContent col-lg-4 text-center">
+                        <img class="rounded-circle" src="img/form.png" width="140" height="140">
+                        <p>2. Isi form pemesanan</p>
+                    </div>
+
+                    <div class="orderGuideContent col-lg-4 text-center">
+                        <img class="rounded-circle" src="img/debit-card.jpg" width="140" height="140">
+                        <p>3. Bayar pesanan anda</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="deskripsi-orderGuide">
+                    <h2 class="featurette-heading fw-normal lh-1">Si Tukang</h2>
+                    <p class="lead">Temukan Penyedia Jasa Terpercaya
+                        Sekarang Juga!</p>
+                    <a href="#services" type="submit" class="btn active btn-outline-secondary">Pesan Sekarang</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Testimoni -->
+<div class="testimoniBanner">
+    <h2 class="testimoniBannerTitle fs-1">Testimoni</h2>
+</div>
+<div class="testimoniContent container">
+    <div class="row">
+        <% fb.forEach(element=> { %>
+            <div class="col-lg-4 text-center">
+                <img class="rounded-circle" src="img/user.png" width="140" height="140" alt="">
+                <h3 class="testimoniContentTitle fw-normal" class="fw-normal">
+                    <%= element.pemesan.name %>
+                </h3>
+                <p>
+                    <%= element.review %>
+                </p>
+            </div>
+            <% }) %>
+    </div>
+</div>
+
+<!-- About Us -->
+<div class="about">
+    <h1 class="aboutTitle">
+        About Us
+    </h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 text-center text-white">
+                <img class="rounded-circle" src="img/alwin.jpg" width="140" height="140" alt="">
+                <h3 class="testimoniContentTitle fw-normal" class="fw-normal">Alwin <a
+                        href="https://linktr.ee/izdiharalwin" style="text-decoration: none; color: white;">🡢</a></h3>
+                <p>Seorang Mahasiswa UPN "Veteran" Jawa TImur</p>
+            </div>
+            <div class="col-lg-3 text-center text-white">
+                <img class="rounded-circle" src="img/Aurel.jpg" width="140" height="140" alt="">
+                <h3 class="testimoniContentTitle fw-normal" class="fw-normal">Aurel <a
+                        href="https://www.linkedin.com/in/aurel-chesya-berliana-b27728151"
+                        style="text-decoration: none; color: white;">🡢</a></h3>
+                <p>Seorang Mahasiswi Universitas Negeri Malang</p>
+            </div>
+            <div class="col-lg-3 text-center text-white">
+                <img class="rounded-circle" src="img/aidil.jpg" width="140" height="140" alt="">
+                <h3 class="testimoniContentTitle fw-normal" class="fw-normal">Aidil <a
+                        href="https://www.linkedin.com/in/aidil-fatriansyah-6120a9220/"
+                        style="text-decoration: none; color: white;">🡢</a></h3>
+                <p>Seorang Mahasiswa Institut Bisnis Dan Teknologi Asmi</p>
+            </div>
+            <div class="col-lg-3 text-center text-white">
+                <img class="rounded-circle" src="img/lutfhi.jpg" width="140" height="140" alt="">
+                <h3 class="testimoniContentTitle fw-normal" class="fw-normal">Lutfhi <a
+                        href="https://www.linkedin.com/in/lutfhi-adam-alghani-870283243/"
+                        style="text-decoration: none; color: white;">🡢</a></h3>
+                <p>Seorang Mahasiswa Universitas Gunadarma</p>
+            </div>
+        </div>
+    </div>
+</div>
