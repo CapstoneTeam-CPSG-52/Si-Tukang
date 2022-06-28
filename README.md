@@ -1,7 +1,7 @@
 # Si-Tukang
 ordering handyman services via the website
 
-[Click Me!👋](https://si-tukang.herokuapp.com/)
+[Click Me!👋](https://situkang.herokuapp.com/)
 
 ## How To Use
 * Installing all package inside devDependencies and dependencies on package.json
