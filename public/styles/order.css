@@ -76,8 +76,9 @@
   margin-bottom: 10px;
 }
 
-.map {
+#map {
   max-width: 650px;
+  height: 200px;
 }
 
 .available-services {
@@ -122,19 +123,11 @@
   .form-order {
     width: 250px;
   }
-
-  .map {
-    width: 100%;
-  }
 }
 
 @media screen and (min-width: 350px) {
   .form-order {
     width: 330px;
-  }
-
-  .map {
-    width: 250px;
   }
 }
 
@@ -142,19 +135,11 @@
   .form-order {
     width: 420px;
   }
-
-  .map {
-    width: 100%;
-  }
 }
 
 @media screen and (min-width: 600px) {
   .form-order {
     width: 550px;
-  }
-
-  .map {
-    width: 100%;
   }
 }
 
@@ -166,10 +151,6 @@
 
   .form-order {
     width: 500px;
-  }
-
-  .map {
-    width: 100%;
   }
 }
 
@@ -204,10 +185,6 @@
   .form-order {
     width: 700px;
   }
-
-  .map {
-    width: 600px;
-  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -218,10 +195,6 @@
 
   .form-order {
     width: 750px;
-  }
-
-  .map {
-    width: 650px;
   }
 }
 
